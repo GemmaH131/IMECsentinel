@@ -4,14 +4,14 @@ MSc IMEC project on Sentinel2 data
 ## Project Background
 This project was completed in 2020, as the final project for MSc International Marine Environmental Consultancy at Newcastle University.
 
-The purpose of the project was to identify whether satellite derived bathymetry would be able to support the UK legal requirements to monitor habitat 1110, offshore seabanks covered by water at all times. It was focussed on a specific area of the North Sea.
+The purpose of the project was to identify whether satellite derived bathymetry would be able to support the UK legal requirements to monitor habitat H1110 ‐ Sandbanks which are slightly covered by sea water all the time. It was focussed on a specific area of the North Sea.
 
 ## Set-up
 The project is run solely using the R language, run through RStudio. All required packages are detailed within the code. RStudio version 1.3 using R version 3.6
 
-The project was completed with the support of JNCC, who provided access to all required satellite and in-situ data. 
+The project was completed with the support of JNCC, who provided access to the ARCSI satellite data. NEODAAS provided the ACOLITE satellite data. 
 The satellite data used is from ESA Sentinel-2 mission, satellite tiles 31UCU, 31UCV, 31UDU, 31UDV, which have been pre-processed using the ACOLITE and ARCSI methods. 
-In-situ data was kindly provided by Cefas for the purposes of this data. 
+In-situ data was kindly provided by Cefas from acoustic nbathymetric surveys. 
 
 The expected directory structure is:
 
